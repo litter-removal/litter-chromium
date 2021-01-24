@@ -1,6 +1,10 @@
 # litter-chromium
 crx version of litter that works in any chromium-based browser. Calls public API endpoint.
 
+Litter uses latent semantic indexing to highlight text that is low effort, made by trolls, advertisers, or political organizations:
+
+!(https://cdn.discordapp.com/attachments/774344186773241906/786422093741948998/unknown.png)
+
 The included folder contains the raw js/other files.
 
 Litter is based on cloudtobutt's DOM walking functionality, but moves up a tag and highlights suspicious text instead of checking for "cloud" and replacing it with "butt"
