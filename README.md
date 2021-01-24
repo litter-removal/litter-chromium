@@ -3,7 +3,7 @@ crx version of litter that works in any chromium-based browser. Calls public API
 
 Litter uses latent semantic indexing to highlight text that is low effort, made by trolls, advertisers, or political organizations:
 
-!.(https://cdn.discordapp.com/attachments/774344186773241906/786422093741948998/unknown.png)
+![Highlight text that you're better off not reading](https://cdn.discordapp.com/attachments/774344186773241906/786422093741948998/unknown.png)!
 
 The included folder contains the raw js/other files.
 
