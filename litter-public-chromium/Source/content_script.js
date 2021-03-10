@@ -111,13 +111,13 @@ async function callAPI(textNode, parent)
 		}
 		if (resptext !== "GOOD") {
 			if (resptext === "RED"){
-				parent.innerHTML = `<span style='background-color: #ff0000'>${v}</span>`;
+				parent.innerHTML = `<span style='background-color: #ff0000'>${v}</span><a href="https://blog.litterapp.co/why-was-this-text-flagged-by-litter/">* why was this flagged?</a>`;
 			}
 			if (resptext === 'ORANGE'){
-				parent.innerHTML = `<span style='background-color: #ff9900'>${v}</span>`;
+				parent.innerHTML = `<span style='background-color: #ff9900'>${v}</span><a href="https://blog.litterapp.co/why-was-this-text-flagged-by-litter/">* why was this flagged?</a>`;
 			}
 			if (resptext === 'YELLOW'){
-				parent.innerHTML = `<span style='background-color: #ffff00'>${v}</span>`;
+				parent.innerHTML = `<span style='background-color: #ffff00'>${v}</span><a href="https://blog.litterapp.co/why-was-this-text-flagged-by-litter/">* why was this flagged?</a>`;
 			}
 			else{
 				console.log("wrong color bitch")
