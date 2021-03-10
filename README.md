@@ -2,7 +2,7 @@
 
 Update: Now including some help text, which I hope will be helpful for new users/those unfamiliar with LSI/LDA
 
-!.[It leads to a simple blog post explaining why text was highlighted].(https://media.discordapp.net/attachments/774344186773241906/819184048748363806/unknown.png)
+![It leads to a simple blog post explaining why text was highlighted].(https://media.discordapp.net/attachments/774344186773241906/819184048748363806/unknown.png)
 
 
 crx version of litter that works in any chromium-based browser. Calls public API endpoint.
