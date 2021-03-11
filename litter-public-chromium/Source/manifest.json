@@ -1,8 +1,14 @@
 {
 	"manifest_version": 2,
 	"name": "Litter",
+	"options_page": "options.html",
 	"version": "0.0.1",
 	"description": "Highlights text identified by bots by machine learning app",
+    "permissions": [
+        "storage",
+		"tabs",
+		"activeTab"
+    ],
 	"content_scripts": 
 	[
 		{

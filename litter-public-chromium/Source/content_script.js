@@ -1,5 +1,3 @@
-setInterval(walk(document.body), 90)
-
 //setInterval(walk(document.body), 90) ;
 
 function sleep(milliseconds) {
@@ -10,15 +8,33 @@ function sleep(milliseconds) {
 	} while (currentDate - date < milliseconds);
   }
 
+	// Use default value color = 'red' and likesColor = true.
+
+
+chrome.storage.sync.get({
+	namelist: 'github.com'
+	}, function(result) {
+	console.log('Value currently is ' + result.namelist)
+	domain = document.baseURI.match(/^[\w-]+:\/{2,}\[?([\w\.:-]+)\]?(?::[0-9]*)?/)[1];
+	// use `url` here inside the callback because it's asynchronous!
+	whitelist = result.namelist
+	console.log(domain)
+	console.log(whitelist)
+	if (whitelist.includes(domain)) {
+		console.log("contains true")} else {
+			walk(document.body)};
+		});
+
 
 function walk(node) 
 {
 	// I stole this function from here:
 	// http://is.gd/mwZp7E
 	
-	var child, next;
+	var whitelist, domain, child, next, err;
 	
 	var tagName = node.tagName ? node.tagName.toLowerCase() : "";
+
 	if (tagName == 'input' || tagName == 'textarea') {
 		return;
 	}
@@ -36,7 +52,7 @@ function walk(node)
 			while ( child ) 
 			{
 				next = child.nextSibling;
-				console.log(child);
+				//console.log(child);
 				walk(child);
 				child = next;
 			}
