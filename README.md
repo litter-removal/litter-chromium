@@ -1,6 +1,14 @@
 # litter-chromium
 
-Update: Now including some help text, which I hope will be helpful for new users/those unfamiliar with LSI/LDA
+Update: Now with whitelisting, block litter from highlighting specific sites in the options menu
+
+![options](https://cdn.discordapp.com/attachments/744258573860601967/819642496786759690/unknown.png)
+
+![whitelist](https://cdn.discordapp.com/attachments/744258573860601967/819642708242333746/unknown.png)
+
+
+
+Update(2): Now including some help text, which I hope will be helpful for new users/those unfamiliar with LSI/LDA
 
 ![It leads to a simple blog post explaining why text was highlighted](https://media.discordapp.net/attachments/774344186773241906/819184048748363806/unknown.png)!
 
